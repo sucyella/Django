@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Level Two Quiz - Course Sign Up Page</title>
+</head>
+<body>
+<h1>Course Sign Up Page</h1>
+<p>Please Note: First Name, Last Name, Password, and Email are required</p>
+
+<form action="thank_you_page.html" method="get">
+<p>
+<label for="first_name">First Name:</label>
+<input type="text" id="first_name" name="first_name" placeholder="First Name" required>
+
+<label for="last_name">Last Name:</label>
+<input type="text" id="last_name" name="last_name" placeholder="Last Name" required>
+</p>
+
+<p>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="name@email.com" required>
+
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" required>
+</p>
+
+<p>Are you over the age of 18?</p>
+<label for="over_18">Yes:</label>
+<input type="radio" id="over_18" name="age">
+<label for="under_18">No:</label>
+<input type="radio" id="under_18" name="age">
+
+<p>Do you have a Credit Card or Paypal?</p>
+<select>
+    <option>Credit Card</option>
+    <option>Paypal</option>
+</select>
+
+<p><input type="submit" value="Submit Feedback"></p>
+
+</form>
+
+</body>
+</html>
